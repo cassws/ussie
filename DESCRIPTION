@@ -1,11 +1,13 @@
 Package: ussie
-Title: What the Package Does (One Line, Title Case)
+Title: Stanardizing and Transforming European Football Data
 Version: 0.0.0.9000
 Authors@R: 
-   c(
     person("Cass", "Wilkinson Saldana", , "cass.z.ws@gmail.com", role = c("aut", "cre")
-           ))
-Description: What the package does (one paragraph).
+           )
+Description: Here is a sample package created at the 2022 Tidy Tools Workshop in
+    Washington, DC! We will standardize and transform European football (soccer)
+    data to compare across messy datasets. This is a way to practice using the
+    package development tooling in R.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
