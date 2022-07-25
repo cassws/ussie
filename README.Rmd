@@ -1,0 +1,43 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# ussie
+
+<!-- badges: start -->
+[![R-CMD-check](https://github.com/zoews/ussie/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/zoews/ussie/actions/workflows/R-CMD-check.yaml)
+<!-- badges: end -->
+
+Here is a sample package created at the 2022 Tidy Tools Workshop in Washington, DC! We will standardize and transform European football (soccer) data to compare across messy datasets. This is a way to practice using the package development tooling in R.
+
+## Installation
+
+You can install the development version of ussie from [GitHub](https://github.com/) with:
+
+``` r
+# install.packages("devtools")
+devtools::install_github("zoews/ussie")
+```
+
+## Example
+
+Here is an example using Spain's European Football data.
+
+```{r example}
+library(ussie)
+spain <- uss_make_matches(engsoccerdata::spain, "Spain")
+summary(spain)
+
+```
+
