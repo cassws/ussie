@@ -6,6 +6,7 @@
 <!-- badges: start -->
 
 [![R-CMD-check](https://github.com/zoews/ussie/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/zoews/ussie/actions/workflows/R-CMD-check.yaml)
+[![test-coverage](https://github.com/zoews/ussie/actions/workflows/test-coverage.yaml/badge.svg)](https://github.com/zoews/ussie/actions/workflows/test-coverage.yaml)
 <!-- badges: end -->
 
 Here is a sample package created at the 2022 Tidy Tools Workshop in
