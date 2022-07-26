@@ -12,6 +12,7 @@ Here is a sample package created at the 2022 Tidy Tools Workshop in Washington, 
 Useful links:
 \itemize{
   \item \url{https://github.com/zoews/ussie}
+  \item \url{https://zoews.github.io/ussie/}
   \item Report bugs at \url{https://github.com/zoews/ussie/issues}
 }
 
