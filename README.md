@@ -71,3 +71,23 @@ summary(spain)
 #>                                        3rd Qu.: 3.000   3rd Qu.:2.000  
 #>                                        Max.   :12.000   Max.   :8.000
 ```
+
+We could add filtering params
+
+``` r
+uss_get_matches("england", season == 1966)
+#> # A tibble: 2,028 × 8
+#>    country tier  season date       home    visitor      goals_home goals_visitor
+#>    <chr>   <fct>  <int> <date>     <chr>   <chr>             <int>         <int>
+#>  1 England 1       1966 1966-08-27 Arsenal Aston Villa           1             0
+#>  2 England 1       1966 1966-09-17 Arsenal Blackpool             1             1
+#>  3 England 1       1966 1966-12-03 Arsenal Burnley               0             0
+#>  4 England 1       1966 1967-02-04 Arsenal Chelsea               2             1
+#>  5 England 1       1966 1967-04-25 Arsenal Everton               3             1
+#>  6 England 1       1966 1966-11-19 Arsenal Fulham                1             0
+#>  7 England 1       1966 1966-11-05 Arsenal Leeds United          0             1
+#>  8 England 1       1966 1966-10-01 Arsenal Leicester C…          2             4
+#>  9 England 1       1966 1967-03-28 Arsenal Liverpool             1             1
+#> 10 England 1       1966 1967-01-14 Arsenal Manchester …          1             0
+#> # … with 2,018 more rows
+```

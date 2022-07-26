@@ -51,3 +51,8 @@ spain <- uss_get_matches("spain")
 summary(spain)
 
 ```
+We could add filtering params
+```{r uss_get_matches_filter}
+uss_get_matches("england", season == 1966)
+
+```
