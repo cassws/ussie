@@ -126,6 +126,23 @@
 <span><span class="co">#&gt;                                        Mean   : 1.833   Mean   :1.028  </span></span>
 <span><span class="co">#&gt;                                        3rd Qu.: 3.000   3rd Qu.:2.000  </span></span>
 <span><span class="co">#&gt;                                        Max.   :12.000   Max.   :8.000</span></span></code></pre></div>
+<p>We could add filtering params</p>
+<div class="sourceCode" id="cb4"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="fu"><a href="reference/uss_get_matches.html">uss_get_matches</a></span><span class="op">(</span><span class="st">"england"</span>, <span class="va">season</span> <span class="op">==</span> <span class="fl">1966</span><span class="op">)</span></span>
+<span><span class="co">#&gt; # A tibble: 2,028 × 8</span></span>
+<span><span class="co">#&gt;    country tier  season date       home    visitor      goals_home goals_visitor</span></span>
+<span><span class="co">#&gt;    &lt;chr&gt;   &lt;fct&gt;  &lt;int&gt; &lt;date&gt;     &lt;chr&gt;   &lt;chr&gt;             &lt;int&gt;         &lt;int&gt;</span></span>
+<span><span class="co">#&gt;  1 England 1       1966 1966-08-27 Arsenal Aston Villa           1             0</span></span>
+<span><span class="co">#&gt;  2 England 1       1966 1966-09-17 Arsenal Blackpool             1             1</span></span>
+<span><span class="co">#&gt;  3 England 1       1966 1966-12-03 Arsenal Burnley               0             0</span></span>
+<span><span class="co">#&gt;  4 England 1       1966 1967-02-04 Arsenal Chelsea               2             1</span></span>
+<span><span class="co">#&gt;  5 England 1       1966 1967-04-25 Arsenal Everton               3             1</span></span>
+<span><span class="co">#&gt;  6 England 1       1966 1966-11-19 Arsenal Fulham                1             0</span></span>
+<span><span class="co">#&gt;  7 England 1       1966 1966-11-05 Arsenal Leeds United          0             1</span></span>
+<span><span class="co">#&gt;  8 England 1       1966 1966-10-01 Arsenal Leicester C…          2             4</span></span>
+<span><span class="co">#&gt;  9 England 1       1966 1967-03-28 Arsenal Liverpool             1             1</span></span>
+<span><span class="co">#&gt; 10 England 1       1966 1967-01-14 Arsenal Manchester …          1             0</span></span>
+<span><span class="co">#&gt; # … with 2,018 more rows</span></span></code></pre></div>
 </div>
 </div>
 </div>
