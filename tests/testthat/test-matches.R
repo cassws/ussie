@@ -12,7 +12,7 @@ test_that("uss_make_matches works", {
   expect_named(italy, expected_colnames)
 
   # expect italy appears in country column
-  # expect_identical(italy$country[1], "Italy")
+  expect_identical(italy$country[1], "Italy")
   expect_identical(unique(italy$country), "Italy")
 
   expect_s3_class(italy$tier, "factor")
