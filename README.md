@@ -47,3 +47,27 @@ summary(spain)
 #>                                        3rd Qu.: 3.000   3rd Qu.:2.000  
 #>                                        Max.   :12.000   Max.   :8.000
 ```
+
+### Get matches
+
+Here is a way to get matches
+
+``` r
+library(ussie)
+spain <- uss_get_matches("spain")
+summary(spain)
+#>    country          tier          season          date           
+#>  Length:23915       1:23915   Min.   :1928   Min.   :1929-02-10  
+#>  Class :character   2:    0   1st Qu.:1963   1st Qu.:1964-02-08  
+#>  Mode  :character   3:    0   Median :1984   Median :1985-03-03  
+#>                     4:    0   Mean   :1981   Mean   :1981-11-05  
+#>                               3rd Qu.:2000   3rd Qu.:2000-11-18  
+#>                               Max.   :2015   Max.   :2016-05-15  
+#>      home             visitor            goals_home     goals_visitor  
+#>  Length:23915       Length:23915       Min.   : 0.000   Min.   :0.000  
+#>  Class :character   Class :character   1st Qu.: 1.000   1st Qu.:0.000  
+#>  Mode  :character   Mode  :character   Median : 2.000   Median :1.000  
+#>                                        Mean   : 1.833   Mean   :1.028  
+#>                                        3rd Qu.: 3.000   3rd Qu.:2.000  
+#>                                        Max.   :12.000   Max.   :8.000
+```

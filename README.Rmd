@@ -42,3 +42,12 @@ summary(spain)
 
 ```
 
+### Get matches
+
+Here is a way to get matches
+```{r matches_example}
+library(ussie)
+spain <- uss_get_matches("spain")
+summary(spain)
+
+```
